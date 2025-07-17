@@ -17,6 +17,7 @@ def call(Map configMap){
             account_id = '932478401603'
             project = configMap.get("project")
             environment = 'dev'
+         
             component = configMap.get("component")
         }
                      
