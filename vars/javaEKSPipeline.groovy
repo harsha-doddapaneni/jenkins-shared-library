@@ -19,7 +19,7 @@ def call(Map configMap){
             environment = 'dev'
             component = configMap.get("component")
         }
-
+ 
         stages {
             stage('Read the version') {
                 steps {
